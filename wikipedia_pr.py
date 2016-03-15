@@ -179,7 +179,7 @@ class pageRank(MRJob):
 
           ]
 
-          return initializeStep + iterateStep * 5 + sortStep
+          return initializeStep + iterateStep * 10 + sortStep
  
  
 if __name__ == '__main__':
