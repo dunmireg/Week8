@@ -9,7 +9,8 @@ from operator import itemgetter
 import os 
 
 
-numberOfNodes = pow(10, 7)
+# Manual number of nodes 
+numberOfNodes = pow(10, 1)
 
 
 class pageRank(MRJob):
@@ -178,7 +179,7 @@ class pageRank(MRJob):
 
           ]
 
-          return initializeStep + iterateStep * 50 + sortStep
+          return initializeStep + iterateStep * 10 + sortStep
  
  
 if __name__ == '__main__':

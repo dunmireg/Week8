@@ -1,3 +1,4 @@
+
 from __future__ import division
  
 from mrjob.job import MRJob
@@ -178,7 +179,7 @@ class pageRank(MRJob):
 
           ]
 
-          return initializeStep + iterateStep * 50 + sortStep
+          return initializeStep + iterateStep * 5 + sortStep
  
  
 if __name__ == '__main__':
